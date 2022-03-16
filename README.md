@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	wxRobot := robot.New("https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=35ce8f27-4c61-4c9e-ac66-xxxxxxxx")
+	wxRobot := robot.New("your robot webhook")
 
 	// text
 	text := message.NewTextSimple("hello world!", false)
